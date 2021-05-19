@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <style type="text/css" media="print">
+      body {
+        margin: 0;
+      }
+      div.item {
+        display: inline-block;
+        margin: 5px;
+        page-break-inside: avoid;
+        zoom: 75%;
+      }
+      div.item:nth-child(9n) {
+        page-break-after: always;
+      }
+    </style>
+    <style type="text/css" media="all">
+      body {
+        font-family: tahoma;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+      .gallery-title {
+        background: #36a2ef;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0 5px;
+        border: 1px solid #36a2ef;
+        border-radius: 10px;
+        padding: 5px;
+        width: 350px;        
+      }
+      .item {
+        background-color: #d7ebff;
+        border: 1px solid #36a2ef;
+        border-radius: 10px 10px 10px 10px;
+        float: left;
+        height: 395px;
+        margin: 20px 5px 5px 5px;
+        padding: 15px 10px;
+        text-align: center;
+        width: 280px;
+        overflow: hidden;
+      }
+      .title {    
+        background-color: #36a2ef;
+        border: 1px solid #36a2ef;
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+        margin-left: -11px;
+        margin-top: -16px;
+        margin-right: -11px;
+        margin-bottom: 5px;
+        padding: 1px 1px;
+      }
+      .footer {    
+        background-color: #31a9ff;
+        border: 1px solid #1877ec;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        margin-left: 33%;
+        margin-top: -27px;
+        margin-bottom: 5px;
+        padding: 1px 5px;
+        width: 70px;
+      }
+      img {
+        max-height: 400px;
+        max-width: 270px;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onload = function() {
+        var items = document.getElementsByClassName('item');
+        var items_lenght = items.length;
+        var count = 0;
+      
+        for (var i = 0; i < items_lenght; i++) {
+          count = count + parseInt(items[i].getAttribute("data-count"));
+        }
+      
+        document.getElementById('total').innerHTML = count;
+      }
+    </script>
+  </head>
+    <body>
+      <div class="gallery-title">
+        Coleção Miguel: 01/05/2021 (<span id="total">?</span> miniaturas)
+      </div>
+      <div class="item" data-count="5">
+        <div class="title">Fast & Furious: GHP55</div>
+        <img src="images/image_001.jpg" />
+      </div>
+      <div class="item" data-count="5">
+        <div class="title">Fast & Furious: GTN40</div>
+        <img src="images/image_002.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Fast & Furious: GRY64</div>
+        <img src="images/image_003.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Fast & Furious: GHB44</div>
+        <img src="images/image_004.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Fast & Furious: GHC78</div>
+        <img src="images/image_005.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">The Love Bug: BFD65</div>
+        <img src="images/image_006.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Scooby-Doo: V5326</div>
+        <img src="images/image_007.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">TMNT: GHB47</div>
+        <img src="images/image_008.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Beatles: GHD78</div>
+        <img src="images/image_009.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">DC (Batman): GLN68</div>
+        <img src="images/image_010.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">DC (Batman): GRX86</div>
+        <img src="images/image_011.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Hello Kitty: GRX94</div>
+        <img src="images/image_012.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Barbie: GRX39</div>
+        <img src="images/image_013.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">The Flinstones: GHC76</div>
+        <img src="images/image_014.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Peanuts (Snoopy): BDC91</div>
+        <img src="images/image_015.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">UNO: BDC91</div>
+        <img src="images/image_016.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">Star Wars (Landspeeder): GRX16</div>
+        <img src="images/image_017.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_018.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_019.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_020.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_021.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_022.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_023.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_024.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_025.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_026.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_027.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_028.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_029.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_030.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_031.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_032.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_033.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_034.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_035.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_036.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_037.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_038.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_039.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_040.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_041.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_042.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_043.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_044.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_045.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_046.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_047.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_048.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_049.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_050.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_051.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_052.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_053.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_054.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_055.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_056.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_057.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_058.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_059.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_060.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_061.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_062.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_063.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_064.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">CFH87</div>
+        <img src="images/image_065.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">SFNWJ</div>
+        <img src="images/image_066.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_067.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_068.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_069.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_070.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_071.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_072.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_073.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_074.jpg" />
+      </div>
+      <div class="item" data-count="1">
+        <div class="title">&nbsp;</div>
+        <img src="images/image_075.jpg" />
+      </div>
+      <div class="item" data-count="5">
+        <div class="title">Lamborghini: GHP62</div>
+        <img src="images/image_076.jpg" />
+      </div>     
+    </body>
+</html>
