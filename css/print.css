@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+div.item {
+  display: inline-block;
+  margin: 5px;
+  page-break-inside: avoid;
+  zoom: 75%;
+}
+div.item:nth-child(9n) {
+  page-break-after: always;
+}
