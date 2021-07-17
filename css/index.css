@@ -4,15 +4,29 @@ body {
   margin-top: 20px;
 }
 .gallery-title {
-  background: #36a2ef;
+  background-color: #36a2ef;
+  border: 1px solid #36a2ef;
+  border-radius: 10px;
   color: #fff;
   font-weight: bold;
   font-size: 15px;
   margin: 0 5px;
-  border: 1px solid #36a2ef;
-  border-radius: 10px;
   padding: 5px;
   width: 350px;        
+}
+.separator {
+  background-color: #36a2ef;
+  border: 1px solid #36a2ef;
+  border-radius: 10px 10px 10px 10px;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  height: 15px;
+  margin: 20px 5px -10px 5px;
+  overflow: hidden;
+  padding: 3px;
+  text-align: center;
+  width: 96.2%;  
 }
 .item {
   background-color: #d7ebff;
