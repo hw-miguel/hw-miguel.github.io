@@ -12,7 +12,14 @@ body {
   font-size: 15px;
   margin: 0 5px;
   padding: 5px;
-  width: 465px;        
+  width: 435px;        
+}
+.total-price {    
+  color: #444;
+  font-size: 11px;
+  font-style: italic;
+  margin: 1px 0 0 0;
+  margin-right: 3px;
 }
 .separator {
   background-color: #36a2ef;
@@ -52,6 +59,18 @@ body {
   margin-bottom: 5px;
   padding: 1px 1px;
 }
+.price {
+  color: #444;
+  float: right;
+  font-size: 8px;
+  font-style: italic;
+  margin: 1px 0 0 0;
+  margin-right: 3px;
+}
+img {
+  max-height: 400px;
+  max-width: 270px;
+}
 .footer {    
   background-color: #31a9ff;
   border: 1px solid #1877ec;
@@ -63,8 +82,4 @@ body {
   margin-bottom: 5px;
   padding: 1px 5px;
   width: 70px;
-}
-img {
-  max-height: 400px;
-  max-width: 270px;
 }
