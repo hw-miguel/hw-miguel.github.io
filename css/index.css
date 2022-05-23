@@ -59,6 +59,19 @@ body {
   margin-bottom: 5px;
   padding: 1px 1px;
 }
+.title a {
+  background-color: #36a2ef;
+  border: 1px solid #36a2ef;
+  color: #fff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+.title a:hover {
+  color: #444;
+  text-decoration: underline;
+}
 .price {
   color: #444;
   float: right;
