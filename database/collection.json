@@ -1,26 +1,28 @@
-{
-  code: 'GHP55',
-  description: ''
-  year: '2020',
-  collection: 'Fast & Furious',
-  make: '-',
-  style: 'Cars',
-  package_size: 5,
-  images: {
-    thumbnail: 'image_001.jpg',
-    normal: 'image_001.jpg' 
-  }  
-},
-{
-  code: 'GTN40',
-  description: ''
-  year: '2021',
-  collection: 'Fast & Furious',
-  make: '-',
-  style: 'Cars',
-  package_size: 5,
-  images: {
-    thumbnail: 'image_002.jpg',
-    normal: 'image_002.jpg' 
-  }  
-}
+[
+  {
+    "code": "GHP55",
+    "description": "",
+    "year": "2020",
+    "collection": "Fast & Furious",
+    "make": "-",
+    "style": "Cars",
+    "package_size": 1,
+    "images": {
+      "thumbnail": "image_001.jpg",
+      "normal": "image_001.jpg"
+    }
+  },
+  {
+    "code": "GTN40",
+    "description": "",
+    "year": "2021",
+    "collection": "Fast & Furious",
+    "make": "-",
+    "style": "Cars",
+    "package_size": 5,
+    "images": {
+      "thumbnail": "image_002.jpg",
+      "normal": "image_002.jpg"
+    }
+  }
+]
